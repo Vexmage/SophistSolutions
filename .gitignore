@@ -1,0 +1,13 @@
+bin/
+obj/
+*.user
+*.suo
+*.DS_Store
+*.log
+.vs/
+.vscode/
+.idea/
+*.swp
+node_modules/
+.env
+secrets.json

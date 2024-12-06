@@ -1,0 +1,214 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<!-- Hero Section -->
+<div class="hero-banner" style="background-image: url('images/agora.jpg');">
+    <div class="overlay">
+        <h1>Welcome to Sophist Solutions</h1>
+        <p>Discover the art of persuasion and elevate your rhetorical skills.</p>
+        <div class="hero-buttons">
+            <a href="/products" class="btn btn-primary">Browse Classes</a>
+            <a href="#what-is-sophism" class="btn btn-secondary">Learn More</a>
+        </div>
+    </div>
+</div>
+
+<!-- What is Sophism Section -->
+<section class="info-section">
+    <h2>What is Sophism?</h2>
+    <div class="sophism-content">
+        <div class="text-content">
+            <p>
+                Sophism is the ancient art of persuasion and argumentation, championed by thinkers who understood
+                the power of rhetoric in shaping opinions and decisions. Sophists were educators and debaters, guiding
+                individuals in mastering the skills of logic and eloquence to succeed in civic life.
+            </p>
+        </div>
+        <div class="image-content">
+            <img src="images/debate.jpg" alt="People engaged in dialogue and rhetoric" />
+        </div>
+    </div>
+</section>
+
+
+<!-- Brief History Section -->
+<section class="info-section">
+    <h2>A Brief History of Sophism</h2>
+    <p>
+        The sophists, including Protagoras, Gorgias, and Isocrates, shaped ancient philosophy and education.
+        They emphasized the power of words and the art of argumentation, skills that still influence modern
+        communication strategies in law, politics, and business.
+    </p>
+    <div class="philosophers">
+        <div class="philosopher">
+            <img src="images/protagoras.png" alt="Protagoras" />
+            <p>Protagoras</p>
+        </div>
+        <div class="philosopher">
+            <img src="images/gorgias.png" alt="Gorgias" />
+            <p>Gorgias</p>
+        </div>
+        <div class="philosopher">
+            <img src="images/isocrates.png" alt="Isocrates" />
+            <p>Isocrates</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Why Become a Sophist Section -->
+<section class="info-section">
+    <h2>Why Become a Sophist?</h2>
+    <ul class="reasons-list">
+        <li><span class="icon">&#10003;</span> Unlock lucrative career opportunities as a professional rhetorician.</li>
+        <li><span class="icon">&#10003;</span> Gain mastery over persuasive techniques to influence audiences.</li>
+        <li><span class="icon">&#10003;</span> Elevate your public speaking skills and confidence.</li>
+        <li><span class="icon">&#10003;</span> Learn from the timeless wisdom of Protagoras, Gorgias, and Isocrates.</li>
+    </ul>
+</section>
+
+
+<!-- Start Your Journey Section -->
+<section class="journey-section">
+    <h2>Start Your Journey</h2>
+    <div class="journey-cards">
+        <div class="journey-card">
+            <img src="images/schoolofdialogue.jpg" alt="Rhetorical Mastery 101">
+            <h3>Rhetorical Mastery 101</h3>
+            <p>Learn the foundational skills of persuasion and communication through engaging lessons inspired by the great sophists.</p>
+        </div>
+        <div class="journey-card">
+            <img src="images/manuscript.jpg" alt="Sophists Manual">
+            <h3>Sophists Manual</h3>
+            <p>A comprehensive guide to the art of persuasion, packed with timeless strategies and examples.</p>
+        </div>
+        <div class="journey-card">
+            <img src="images/toolkit.png" alt="Rhetorical Toolkit">
+            <h3>Rhetorical Toolkit</h3>
+            <p>Equip yourself with advanced techniques and tools to elevate your influence and communication.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Testimonials Section -->
+<section class="testimonials-section">
+    <h2>What People Are Saying</h2>
+    <div class="testimonial">
+        <p>"Sophist Solutions taught me how to close deals like never before!"</p>
+        <span>— Alex P.</span>
+    </div>
+    <div class="testimonial">
+        <p>"Mastering persuasion has changed my career trajectory!"</p>
+        <span>— Jamie L.</span>
+    </div>
+    <div class="testimonial">
+        <p>"Don't listen to that guy Socrates. He sleeps in barrels and stuff. Isocrates is what's up!"</p>
+        <span>— Taylor K.</span>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="cta-section">
+    <h2>Transform Your Life Today</h2>
+    <p>Enroll in a course or explore our products to become a master of persuasion.</p>
+    <a href="/products" class="btn btn-primary">Get Started</a>
+</section>
+
+<style>
+    .hero-banner {
+        position: relative;
+        color: white;
+        text-align: center;
+        padding: 4rem 1rem;
+        background-size: cover;
+        background-position: center;
+    }
+
+        .hero-banner .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 2rem;
+            display: inline-block;
+        }
+
+    .hero-buttons a {
+        margin: 0.5rem;
+    }
+
+    .info-section {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .benefits-section ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .benefits-section ul li {
+            margin: 0.5rem 0;
+        }
+
+    .products-section {
+        padding: 2rem;
+        background-color: #f9f9f9;
+    }
+
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .product-item {
+        text-align: center;
+        padding: 1rem;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .testimonials-section {
+        padding: 2rem;
+        background-color: #f5f5f5;
+        text-align: center;
+    }
+
+    .testimonial {
+        margin: 1rem 0;
+    }
+
+    .cta-section {
+        text-align: center;
+        padding: 2rem;
+        background-color: #1b6ec2;
+        color: white;
+    }
+
+        .cta-section a {
+            margin-top: 1rem;
+        }
+
+
+    .reasons-list {
+        list-style: none;
+        padding: 0;
+        margin: 1rem 0;
+    }
+
+        .reasons-list li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .reasons-list .icon {
+            display: inline-block;
+            color: #26b050; /* A green checkmark color */
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+        }
+
+</style>

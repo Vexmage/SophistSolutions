@@ -1,0 +1,67 @@
+﻿<div class="nav-menu">
+    <ul class="nav-list">
+        <li>
+            <NavLink href="/" class="nav-link" active-class="active">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </li>
+        <li>
+            <NavLink href="/products" class="nav-link" active-class="active">
+                <span class="oi oi-cart" aria-hidden="true"></span> Products
+            </NavLink>
+        </li>
+        <li>
+            <NavLink href="/about" class="nav-link" active-class="active">
+                <span class="oi oi-info" aria-hidden="true"></span> About
+            </NavLink>
+        </li>
+
+        <li>
+            <NavLink href="/contact" class="nav-link" active-class="active">
+                <span class="oi oi-envelope-closed" aria-hidden="true"></span> Contact
+            </NavLink>
+        </li>
+        <li>
+            <NavLink href="/account" class="nav-link" active-class="active">
+                <span class="oi oi-person" aria-hidden="true"></span> Account
+            </NavLink>
+        </li>
+    </ul>
+</div>
+
+<style>
+    .nav-menu {
+        background-color: #f8f9fa;
+        padding: 1rem;
+        border-right: 2px solid #ddd;
+        height: 100vh;
+    }
+
+    .nav-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .nav-list li {
+            margin-bottom: 1rem;
+        }
+
+    .nav-link {
+        text-decoration: none;
+        color: #007bff;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+        .nav-link.active {
+            font-weight: bold;
+            color: #0056b3;
+        }
+
+        .nav-link:hover {
+            color: #0056b3;
+        }
+</style>

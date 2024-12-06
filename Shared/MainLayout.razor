@@ -1,0 +1,57 @@
+﻿@inherits LayoutComponentBase
+
+<header class="main-header">
+    <div class="container">
+        <h1>Sophist Solutions</h1>
+        <p>Your gateway to rhetorical mastery!</p>
+    </div>
+</header>
+
+<div class="page">
+    <aside class="sidebar">
+        <NavMenu />
+    </aside>
+
+    <main>
+        <article>
+            @Body
+        </article>
+    </main>
+</div>
+
+<style>
+    header.main-header {
+        background-color: #007bff;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+        header.main-header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        header.main-header p {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+    .page {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sidebar {
+        width: 250px;
+        background-color: #343a40;
+        color: white;
+        padding: 1rem;
+    }
+
+    main {
+        flex: 1;
+        padding: 1rem;
+    }
+</style>
