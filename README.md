@@ -21,4 +21,3 @@ Sophist Solutions is a Blazor Server application dedicated to reviving the art o
 ### Prerequisites
 - [.NET 7 SDK](https://dotnet.microsoft.com/download/dotnet/7.0)
 - [MySQL Server](https://dev.mysql.com/downloads/)
-- Node.js (for managing frontend dependencies, if applicable)
